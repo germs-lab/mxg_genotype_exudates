@@ -1,0 +1,694 @@
+**Soluble Root Exudate Collection Protocol (LDRD 11146)**
+Original protocol: [[LDRD_Root_Exudates_Protocol-v6.docx]]
+
+John Field, Environmental Sciences Division, Oak Ridge National
+Laboratory
+<FieldJL@ornl.gov>
+\(317\) 748-9792
+Written: 10/03/2022
+Developed under Research Safety Summary (RSS) 9119
+Updated to version 6: 9/15/2024 (JLF)
+
+Modified by: Bolívar Aponte Rolón for collection of root exudates from *Miscanthus* x *giganteus* (Mxg) 2025-02-05
+
+## Overview:
+
+This protocol is designed for the collection of soluble root exudates
+*in situ* in field or greenhouse settings to support measurement of
+exudation rate and chemistry/ metabolomics. In brief, fine roots are
+carefully excavated from the soil, allowed to recover, then incubated in
+a dilute nutrient salt solution for approximately one day. Exudate
+samples are recovered by flushing fresh nutrient solution through the
+incubation assembly; flush solution samples are then collected,
+filtered, frozen, and returned to the lab for measurement of total
+organic carbon (TOC) and liquid chromatography–mass spectrometry (LC–MS)
+chemical analysis. In addition, the incubated roots are recovered,
+scanned, and weighed in order to normalize the rate of exudation against
+the root mass, volume, surface area, etc.
+
+There are only very limited examples of field root exudate collection
+for metabolomic analysis in the existing literature, and associated
+methods vary widely. This protocol was modified from Phillips et al.
+2008. *Functional Ecology* 22(6) 990–999 by Rose Abramoff, and
+subsequent changes were informed by an informal literature review
+conducted by Abramoff and John Field, summarized here:
+<https://docs.google.com/spreadsheets/d/1knX6Bz8RmeoAcph9IfCfVKZadpAyQil7qGnWULf8sH0/edit#gid=0>.
+Changes from the original Phillips et al. 2008 protocol include
+simplifications designed to save time or costs, to better support
+metabolomic analysis, and to improve safety. There are several
+considerations in past and ongoing protocol adaptation and optimization:
+
+-   **Protection of root function—** The goal of this protocol is to
+    collect exudates from roots *in situ* (in the field or from potted
+    plants in the greenhouse) while minimizing disturbances that could
+    change the rate or chemistry of exudation and rhizodeposition.
+    Initial root excavation from the field soil or greenhouse potting
+    mix should be done very carefully to minimize abrasion and/or
+    breakage of root tips—***this is typically the most labor-intensive
+    part of the protocol by far***. The protocol includes a
+    rest/recovery step between excavation and incubation to allow the
+    roots to recover from that disturbance and return to equilibrium
+    function. Once roots are carefully placed in incubation assemblies,
+    those containers are backfilled with glass beads to mimic physical
+    structure of soil and provide some air-filled pore space for gas
+    exchange. Also, this protocol follows the original Phillips et al.
+    method of incubating the live roots in a mild nutrient salt
+    solution, to keep a realistic osmotic balance and stimulate solution
+    uptake by the roots. This contrasts with some more recent exudate
+    metabolomic studies that sterilize the roots prior to incubation
+    and/or incubate them in pure DI water. DI water collection would be
+    compatible with GC–MS analysis in the Tschaplinski lab, but the
+    salty nutrient solution requires LC–MS analysis (Paul Abraham).
+
+-   **Contamination & controls—** This protocol is meant to support
+    collection of root exudates, rather than root biomass, soil, or
+    other contaminants. The protocol involves multiple rinsing steps to
+    remove soil from roots, and to flush any remaining soil or other
+    contaminants from the incubation assemblies. Exudate samples are
+    also filtered to remove any particulate contaminants prior to
+    analysis. While utilizing acid-washed glass incubation containers
+    and other components would be ideal for avoiding any leaching of
+    carbon-containing compounds from the incubation assemblies into the
+    exudate samples, cost and time considerations require the use of
+    plastic components. ***The glass beads used to mimic soil structure
+    should ideally be acid-washed prior to use.*** In addition, controls
+    samples should be collected to better characterize and correct for
+    potential contamination. Nutrient solution control samples with and
+    without intentional soil contamination should be collected during
+    any field sampling campaign. Future protocol optimization should
+    attempt to quantify potential sources of contamination, particularly
+    from the polyvinyl difluoride (PVDF) syringe filters used for
+    filtering these samples. Nutrient blank solutions collected during
+    the initial Clatskanie field campaign showed ~2 ppm TOC, significant
+    compared to the main F1 (6–45 ppm TOC, median=13ppm) and F2 flush
+    samples (2–14 ppm TOC, median=5).
+
+-   **Sample storage & preservation—** We generally store samples
+    collected in the field on ice packs (“blue ice”) in a cooler, until
+    they can be put into a –80C freezer back at the lab. Some secondary
+    metabolites (e.g., auxin) present in root biomass and exudates are
+    short-lived, and capturing those transient compounds would require
+    immediate and continuous ultra-cold handling and storage. Also, Tim
+    Tschaplinski and Nancy Engle have observed hydrolytic activity
+    during insufficiently cold sample storage that leads to loss of
+    oligosaccharides and complex phenolics in favor of greater
+    monosaccharides and cleaved aromatics. The nature of this exudate
+    collection method—i.e., day-long incubation at ambient
+    temperature—makes such transformations inevitable. However, if fine
+    root biomass is collected at the same time for metabolomic analysis,
+    it is recommended those samples be stored on dry ice immediately
+    (requires additional training and planning steps). Note that glass
+    scintillation vials will likely crack during –80C storage, and
+    plastic centrifuge tubes will crack if over-filled. Care should be
+    taken to order deep-freeze-friendly sample storage containers, and
+    not to over-fill them.
+
+-   **Miscellaneous considerations—** The protocol below tries to
+    minimize the “dead” volume of incubation solution that is not in
+    contact with roots by using narrow tubing. Luer lock components and
+    parafilm (rather than the plastic stoppers described by Phillips et
+    al.) are used where possible to keep a closed system and minimize
+    soil contact with incubation assemblies. For simplicity we have
+    generally adopted three initial rinse steps to remove any
+    contaminants from the incubation assemblies (rather than the 5 done
+    by Phillips et al.) and two flush steps to recover exudates (rather
+    than the 3 they recommend). The original protocol relied on using
+    needles to transfer exudate solution samples into evacuated glass
+    sample vials, but this introduces puncture risks, and glass vial
+    tend to crack during –80C storage prior to metabolomic analysis. To
+    avoid these issues, we have modified the protocol to transfer
+    samples directly to 15 mL plastic conical tubes, though this
+    introduces an additional opportunity for soil contamination of the
+    samples.
+
+This protocol has been utilized in both field and greenhouse settings.
+Abramoff, Field, and Sarah Ottinger sampled ~50 mature back cottonwood
+trees (*Populus trichocarpa*) at the CBI GWAS site in Clatskanie, Oregon
+in mid-October, 2022. In addition, Field, Udaya Kalluri, and Tommy Mead
+further modified the protocol to collect exudates from 20 trees grown in
+the APPL greenhouse in early June, 2024.
+
+## Time requirements:
+
+-   This is ideally a minimum three-day field protocol. On the first
+    day, a fine root bunch is carefully excavated, and then allowed to
+    recover in moist sand for a day. On the second day, the roots are
+    loaded into incubation assemblies, rinsed, and a day-long incubation
+    is initiated. On the third day the incubation solution is recovered.
+
+-   During the Clatskanie field campaign, it took 3 people about (6)
+    8-hour days to collect ~50 samples, or **~3 hours per sample**. This
+    time was especially long because dry conditions made excavation
+    slow, we were very conservative about root tracing and minimizing
+    root damage, and the disperse site required a lot of walking between
+    the trees being sampled.
+
+-   During the APPL greenhouse campaign, it took an average of two
+    people (2) 5-hour days to collect 20 samples, or **~1 hour per
+    sample**. In this case, root excavation was relatively quick
+    compared to the field, and the root recovery step was skipped
+    entirely due to impracticality and lack of time.
+
+## Materials & equipment:
+
+### PPE
+- Gloves—several pairs per person per day, in the appropriate sizes (should be used any time plant material that could have been exposed to fertilizers or pesticides is handled)
+- Bug spray
+- Sunscreen
+- Gardening pads (to make extended kneeling more comfortable)
+- Tarp (to separate from wet ground and insects)
+- Plenty of drinking water
+### Tools for excavation
+-  Hand trowels
+-  Assortment of tweezers
+- Small paintbrushes (for brushing soil particles from fine roots)
+- Marker flags (one per tree to be sampled)
+- Flagging tape
+- Pie tins (2 per plant)
+- Sand (~1/2 pound(?) per tree sampled; used in root recovery step)
+- Tap water in squirt bottles (for rinsing roots, and rinsing gloves and other components to minimize soil contamination)
+- Paper towels (for blotting roots and general cleaning)
+- 5-gallon buckets (for collecting waste sand and other trash)
+### Incubation assembly 
+One assembly per plant sampled, plus several extra to collect **<u>control samples</u>**. Quantities listed below are *per plant sampled*:
+
+   - (2) 30 mL plastic Luer lock syringes (used for root incubation
+        and solution flushing/collection), plus addition
+        -   Greenhouse variation described below calls for smaller 20 mL
+            syringes due to space constraints and smaller root sizes;
+            see below
+    -   Mesh or screen material to prevent glass beads from clogging
+        syringe port
+        -   The original protocol used mesh fabric cut in disks or
+            folded into cones
+        -   Stainless steel pipe screens greatly simplify set-up and
+            improve reliability
+
+- Glass beads
+	-  3 mm coarse beads (~15 mL / 1 oz)  to take up space
+	-  1 mm fine beads (~15 mL / 1 oz)  to provide more realistic support and porosity   
+		- Phillips et al. used 750 μm diameter
+		- 1 lb of beads = 215 mL; 15 mL = 0.07 lb = 1.1 oz.
+        -   Stored in squirt bottles for easier pouring
+        -   <span class="mark">It is difficult to get good mixing
+            between the 1mm and 3mm beads in the incubation assemblies.
+            We should consider using 1mm beads only, or a slightly
+            smaller size instead of 1mm, or layering the two sizes more
+            carefully while filling the incubation syringe.</span>
+
+- (1) syringe filter (PVDF, 33mm diameter, 0.22 μm pore size)
+	- We should explore this as a potential source of TOC contamination, and potentially test alternative materials, and/or pre-rinsing the filters.
+
+- (1) three-position stopcock
+	- Facilitates rinsing and flushing, recovering of all solution
+- 15 cm of 1/16” inner diameter Tygon tubing
+	- This narrow tubing size minimizes dead volume in the
+            assembly
+- Barb adaptors—(1) female Luer to 1/16” barb and (1) male Luer to1/16” barb
+
+
+#### Incubation syringe assembly materials
+
+| type                                                                                                                                                                                                                                    | qty *per* sample/plant | Unit                            | Product name                                                                                          | Catalog number                                                                                  | Company                    | brand                        | URL                                                                                                                                                                                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 30 mL Luer lock syringes (glass)                                                                                                                                                                                                        | 2                      | 1                               | Fortuna Brand Glass Syringes - Metal Luer Lock Tip                                                    | 7.140-44 or Z314374                                                                             | Grainger / Millipore Sigma | Fortuna                      | https://www.grainger.com/product/FORTUNA-Reusable-Glass-Syringe-30-19G363 or https://www.sigmaaldrich.com/US/en/product/aldrich/z314374                                                           |
+| 20 mL Luer lock syringes (glass)                                                                                                                                                                                                        | 2                      | 1                               | Fortuna Brand Glass Syringes - Metal Luer Lock Tip                                                    | 7.140-41 or Z314560                                                                             | Grainger / Millipore Sigma | Fortuna                      | https://www.grainger.com/product/FORTUNA-Reusable-Glass-Syringe-20-19G362 or https://www.sigmaaldrich.com/US/en/product/aldrich/z314560                                                           |
+| 30 mL Luer lock syringes (plastic)                                                                                                                                                                                                      | 2                      | 1                               | Air-Tite Sterile Syringes                                                                             | [14-817-112](https://www.fishersci.com/shop/products/sterile-syringes-48/14817112?keyword=true) | Fisher Scientific          | Air-Time ML30                | https://www.fishersci.com/shop/products/sterile-syringes-48/14817112?keyword=true                                                                                                                 |
+| 20 mL Luer lock syringes (plastic)                                                                                                                                                                                                      | 2                      | 1                               | Air-Tite Sterile Syringes                                                                             | [14-817-111](https://www.fishersci.com/shop/products/sterile-syringes-48/14817111?keyword=true) | Fisher Scientific          | Air-Tite ML20                | https://www.fishersci.com/shop/products/sterile-syringes-48/14817111?keyword=true                                                                                                                 |
+| Stainless steel mesh screen (30 microns ? see [Phillips et al. - 2008 - New approach for capturing soluble root exudates i](Phillips%20et%20al.%20-%202008%20-%20New%20approach%20for%20capturing%20soluble%20root%20exudates%20i.pdf)) | 1                      | 11" x 39" roll or 12"x24" sheet | 316 Stainless Steel Super-Small-Particle-Filtering Stainless Steel Wire Cloth (25 microns)            | 9419T35	<br>                                                                                    | McMaster                   |                              | https://a.co/d/a1fH7bG or https://www.mcmaster.com/products/mesh-screens/material~stainless-steel-2/removes-particle-size-down-to~25~49~microm/removes-particle-size-down-to~less-than~25~microm/ |
+| 3 mm coarse glass beads                                                                                                                                                                                                                 | ~15 mL / 1 oz          | 1 Lb bottle                     | BioSpec Products 2.7 mm Glass Beads 1 lb bottle                                                       | NC0911353                                                                                       | Fisher Scientific          | BioSpec Products             | https://www.fishersci.com/shop/products/2-7-mm-glass-beads-1-lb/NC0911353#?keyword=3%20mm%20coarse%20glass%20beads                                                                                |
+| 1 mm coarse glass beads                                                                                                                                                                                                                 | ~15 mL / 1 oz          | 1 Lb                            | BioSpec Products 1.0 mm Glass Beads 1 lb bottle                                                       | NC0444130                                                                                       | Fisher Scientific          |                              | https://www.fishersci.com/shop/products/1-0-mm-glass-beads-1-lb/NC0444130#?keyword=11079110                                                                                                       |
+| Syringe filter (PVDF, 33mm diameter, 0.22 μm pore size                                                                                                                                                                                  | 1                      | 100/PK                          | Foxx Life Sciences EZFlow Sterile Hydrophilic PVDF Syringe Filters, 0.22um Sterilizing Membrane, 33mm | 50-104-9921                                                                                     | Fisher Scientific          | Foxx Life Sciences           | https://www.fishersci.com/shop/products/cak-syringe378-2415-oem-100-pk/501049921#?keyword=Syringe%20filter%20(PVDF,%2033mm%20diameter,%200.22%20%CE%BCm%20pore%20size                             |
+| three-position stopcock                                                                                                                                                                                                                 | 1                      |                                 | Namic 3-Way Stopcocks                                                                                 | 70035009                                                                                        | Medline                    | Medline                      | https://www.medline.com/ce/product/Namic-3Way-Stopcocks/Z05-PF200615?sku=MDP70035009                                                                                                              |
+| 1/16” inner diameter Tygon tubing                                                                                                                                                                                                       | 15 cm                  | 50 ft                           | Masterflex Transfer Tubing, Tygon ND-100-65, Non-DEHP, 1/16"" ID x 1/8"" OD                           | NC0522772 <br>                                                                                  | Fisher Scientific          | AVANTOR MASTERFLEX (VWR LLC) | https://www.fishersci.com/shop/products/tubing-nd100-65-1-16x1-8-50/NC0522772#?keyword=tygon%20tubing%201/16%20ID                                                                                 |
+| female Luer to 1/16” barb                                                                                                                                                                                                               | 1                      | 25 qty/box                      | Masterflex Fitting, Polypropylene, Straight, Female Luer to Hose Barb Adapter, 1/16"                  | NC0617061                                                                                       | Fisher Scientific          | AVANTOR MASTERFLEX (VWR LLC) | https://www.fishersci.com/shop/products/female-Luer-1-16-barb-pp-25-p/NC0617061#?keyword=Female%20Luer%20Lock%201/16%22%20PP%20Hose%20Barb%20Adapter                                              |
+| male Luer to 1/16” barb                                                                                                                                                                                                                 | 1                      | 25 qty/box                      | Masterflex Fitting, Polypropylene, Straight, Male Luer Lock to Hose Barb Adapter, 1/16""              | NC0476648                                                                                       | Fisher Scientific          | AVANTOR MASTERFLEX (VWR LLC) | https://www.fishersci.com/shop/products/male-Luer-w-locknut-1-16-25pk/NC0476648#?keyword=Male%20Luer%20Lock%20&%20Female%20Luer%20Lock%201/16%22%20PP%20Hose%20Barb%20Adapter                     |
+|                                                                                                                                                                                                                                         |                        |                                 |                                                                                                       |                                                                                                 |                            |                              |                                                                                                                                                                                                   |
+
+-   Parafilm
+-   Tinfoil
+-   Scissors
+-   Dilute nutrient salt solution (see [Nutrient solution stock](#Nutrient%20solution%20stock) section)
+    -   \(3\) 15 mL rinses + (2) 10 mL incubation/flushes = 65 mL per
+        plant sampled
+    -   Stored in squirt bottles, or ***more ideally with some sort of Luer fitting.***
+    -   **Optional**– When working at remote field sites, nutrient solution
+        can be prepared and shipped in a 10x concentrated form, and then
+        diluted down in the field. Doing so requires a source of
+        distilled water and a plastic graduated cylinder.
+-   Sample containers
+    -   (1) 30–40 mL freeze-proof tubes per plant sampled, for storing F1 and F2 samples
+    
+        <span class="mark"></span>
+>[!note]
+>**Note from John Field:** 
+>- Make sure that the containers are rated for extreme low temperatures, and are over-sized relative to the expected volume of solution.
+>- ***It may be justified to pool both F1 and F2 samples into a single 50 mL conical sample tube instead, to limit the number of TOC and LC–MS measurements required.***
+
+-   Cooler with ice packets (“blue ice”) for preservation of collected
+    samples
+
+    -   <span class="mark">We may switch to preserving samples on dry
+        ice in the future, but this requires additional training and
+        planning</span>
+
+-   **Optional**– 
+	- Plastic baggies for soil moisture sample collection
+	- Whirl bags for collecting additional fine root biomass samples
+	- Coin envelopes for storing/drying incubated roots back at the lab
+
+### Preparation:
+
+#### Incubation container assembly
+- Wear gloves to avoid contaminating any components. Drop a stainless steel pipe screen to the bottom of the syringe body. 
+- Add ~3 mL of coarse glass beads, and re-insert the syringe plunger to hold the mesh/screen and beads in place (Figure 1).
+- Cut a ~15 cm length of **NEW** tygon tubing, and attach a female Luer adaptor to one end and a male Luer adaptor to the other (Figure 2).
+- Remove the plugs from the two female sockets of the three-position stopcock. 
+- Attach one socket to the syringe, and the other to the Tygon tubing assembly. 
+ - Leave the make socket plugged, so incubation fluid cannot accidentally drain out when operating the valve.
+#### Nutrient solution stock
+- Get a 1L volumetric flask and fill about ¾ths with nanopure water (in the analytical room). To this, add the following chemicals found in the chemical cabinet:
+    -   0.4g NH<sub>4</sub>NO<sub>3</sub>
+    -   0.136g KH<sub>2</sub>PO<sub>4</sub>
+    -   0.349g K<sub>2</sub>SO<sub>4</sub>
+    -   0.181g MgSO<sub>4</sub> (anhydrous, FW= 120.37)
+    -   0.441g CaCl<sub>2</sub> (hydrated, FW= 147.02)
+
+>[!note]
+> **Note from John Field:** Put a stirbar (in a jar above the balances) in the flask and stir until everything has dissolved. Filter the solution with a vacuum Erlenmeyer flask and the glass filtering apparatus. Filters for this are the 47mm ones. Store the stock solution in a plastic Nalgene in the refrigerator.
+
+-   To make the working nutrient solution for the field, dilute the
+    stock 10x (i.e., 100ml stock + 900 ml nanopure water). Store working
+    solution in the refrigerator when not using it.
+#### Acid wash the glass beads
+- Use a vacuum filter flask assembly and 10% HCl (same as in Building 1505 Lab 271 acid
+    bath)
+
+>[!note]
+> **Note from John Field:** We currently use sterile syringes, tubing, stopcocks, etc. straight from the package, without any washing step. Gloves should be worn when handling those components to avoid contamination.
+#### Sample container labeling
+- Once the sample collection plan is established, create labels for:
+	- The 30 mL syringes used in the incubation assemblies
+    -   The F1 and F2 sample tubes
+    -   Coin envelopes for storing/drying the fine roots recovered from
+        the incubation apparatus
+    -   Plastic baggies for soil moisture samples
+    -   Any whirl bags for fine root samples
+
+-   <span class="mark">\[Need to add a data collection sheet
+    template?\]</span>
+
+
+ 
+---
+### Root excavation, cleaning & recovery:
+
+This is the most painstaking and time-consuming step in the process.
+Root excavation and cleaning in the field can take an hour or more,
+particularly when conditions are dry and the soil is firm. Note that if
+you are attempting to sample individual trees in a common garden
+setting, it is ***essential*** to trace roots out from the target tree,
+since there will likely be large amounts of root intermingling. A good
+fine root bunch should include multiple live (light-colored and firm)
+branches, with root tips intact, over a length of 3–5 inches (Figure 4).
+It is common to start excavating multiple candidate fine roots, only to
+find that they are unacceptable (e.g., too short, or damaged, or diving
+too deep into the soil), before completing a successful excavation of an
+appropriate fine root bunch.
+
+-   **Excavation—** Use flagging tape to mark the tree being sampled.
+    Scrape any litter layer or live groundcover away from the plant
+    stem. Dig near the plant stem to identify a wide radial root, and
+    follow it until a live fine root (2mm or less in diameter branches
+    off) is found. Take extreme care to avoid damaging any of the
+    upstream root system, or sever the fine root being excavated. Use
+    tweezers and your fingers to follow and gently excavate the roots
+    branching out from that fine root, until the entire root bunch is
+    completely excavated. Sometimes a hand trowel can be used to dig out
+    the soil beyond when you estimate the end of the root bunch lies,
+    and then excavating backwards toward the target root. This is a very
+    delicate process, and you should use your fingers to tug at the fine
+    roots, but minimize force so that you don’t break off the fine root
+    tips (hot-spots for exudation?). Use a flag to mark the approximate
+    position of the excavated root.
+
+-   **Cleaning—** Using forceps, gently clean organic material and soil
+    from the root. It can also be helpful to soak the root in a foil pan
+    filled with water. We usually finish the cleaning by rinsing the
+    root on a paper towel with a tap water squirt bottle. Figure 4 shows
+    an example cleaned root bunch. Record any notes on the root in the
+    field notebook.
+
+-   **Recovery—** Once the root is clean, dig a depression and place a
+    foil pan with holes in the bottom in the depression (if you have
+    extra time, you can dig this hole out deeper, approximately the
+    depth of the cuvette standing on end, to prepare for day 2). Cover
+    the bottom of the pan with sand-soil mix from the bucket and place
+    the root on top of this. Fill the pan the rest of the way with
+    sand-soil mix. Put some sand-soil mix on where the root enters the
+    pan just outside of the pan to help you identify where the root
+    coming from when you take it out of the pan a few days later.
+    Liberally squirt tap water over the top of the sand-soil mix until
+    it is fully saturated. The excavated root should ideally now be
+    completely covered in moist sand (Figure 5). Place another inverted
+    foil pan on top to protect from heat and evaporation, and sprinkle
+    leaf litter on top of the pan to hide it from curious animals.
+
+### Time Zero - T0
+#### Loading roots into the incubation assembly, rinsing, and initiating the incubation
+
+This step should be initiated only after the excavated roots have spent
+one or more days recovering in the sand-soil mix. Before beginning, take
+two new 30 mL syringes, and label one “clean” and the other “dirty”, to
+be used for supplying and withdrawing rinse solution to and from the
+incubation assemblies. These clean and dirty syringes can be re-used for
+rinsing out multiple incubation assemblies, though you should replace
+the “clean” syringe if the tip or barrel becomes obviously contaminated
+with soil.
+
+-   Carefully remove the leaf litter from on top of the foil pan and
+    scoop the root out of the moist sand-soil mixture. Dump the foil pan
+    and sand-soil mix back into the waste bucket. Place the root in a
+    foil pan without holes in it and soak it in tap water. Then transfer
+    it to a paper towel and rinse it with a squirt bottle and use
+    forceps to get the rest of the sand-soil mix off.
+
+-   If you didn’t do this at the initial excavation stage, use the
+    trowel to dig a deep hole for the incubation assembly to sit as
+    upright as possible in.
+
+-   **Load root into the incubation assembly—** Remove the plunger from
+    the incubation syringe and discard. Be sure to keep the syringe
+    assembly upright so the beads and mesh/screen don’t fall out. Place
+    the clean fine root bunch into the syringe body, ideally away from
+    the walls (Figure 6). For longer roots, you may have to gently fold
+    them over to fit within the syringe body. Fill the rest of the
+    syringe volume with glass beads, alternating between layers of
+    coarse (3mm) and fine (1mm) beads, and gently tapping the syringe
+    body so that the beads settle in with minimum voids (Figure 7). Use
+    parafilm to cover the open top of the syringe body around the root.
+    The parafilm should be extensive enough to keep soil and other
+    contaminants out of the incubation apparatus, but not air-tight
+    (since we will need to inject and withdraw solution from the
+    assembly, and to avoid putting too much pressure on the root).
+
+
+-   **Rinse—** Use the “clean” syringe to inject 15 mL of nutrient
+    solution through the tubing and stopcock into the incubation syringe
+    body (from the bottom; Figure 8), and close the stopcock. Disconnect
+    the “clean” syringe and connect the “dirty” syringe. Open the
+    stopcock, and suck out the rinse solution. Rinse solution can be
+    discarded onto the ground away from the excavated root, or down the
+    drain in the 1503 headhouse. Repeat this process two more time, for
+    a total of (3) 15 mL rinses. To reduce waste and costs, these
+    “clean” and “dirty” syringes can be re-used multiple times, provided
+    they don’t get mixed up, and the clean syringe doesn’t become
+    visually contaminated.
+
+-   **Initiate the incubation—** Add 10 mL of nutrient solution to the
+    incubation assembly. Using the same “clean” syringe,
+    <span class="mark">inject 5 mL of air into the bottom of the
+    assembly to help distribute the incubation solution evenly through
+    the incubation assembly.</span> Close the stopcock, remove the
+    injection syringe, and cover the end of the tubing with tinfoil to
+    keep soil out of the assembly (Figure 9).
+
+-   Record the time, the amount of incubation solution added, and any
+    notes in the log book.
+
+-   Take a large piece of foil and wrap it around the front of the
+    cuvette to keep the root out of the light. Put a pie tray and/or
+    leaf litter on top of the assembly to protect it from the sun and
+    from curious animals.
+
+### Time 24 - T24
+#### Collecting exudate samples:
+
+Roots should incubate for approximately 24 ± 2 hours. Since some of the
+original incubation solution will have been taken up by the roots,
+additional solution must be added to mobilize and “flush” the remaining
+solution and any exuded compounds out of the incubation assembly for
+recovery. Two separate flushes are performed, to maximize the recovery
+of soluble exudates accumulated in the incubation assemblies. Note that
+a fresh 30 mL syringe should be used to collect the flushes from each
+plant sampled to prevent cross-contamination, but the collection syringe
+can be re-used for the first and second flushes.
+
+-   Record the time that the incubation is terminated (this will allow
+    calculation of the total incubation time), and uncover the
+    incubation assembly.
+
+-   **First flush (F1)—** Using the “clean” syringe, add 5 mL of fresh
+    nutrient solution through the bottom of the incubation assembly.
+    Make sure to close the stopcock when switching between the injection
+    and sampling syringes, so the solution does not drain out
+    unintentionally. Then, using a fresh 30 mL syringe dedicated to
+    collecting samples from this particular plant, withdraw as much of
+    the incubation solution as possible. Disconnect the sampling syringe
+    from the incubation assembly, holding it upside-down, so none of the
+    flush solution leaks out during the transfer. Attach a syringe
+    filter to the end of the sample syringe, and squirt the solution to
+    the appropriately-labeled (F1) 15 mL conical sample tube (Figure
+    10). Be careful not to transfer any soil into the sample tube from
+    dirty gloves or other sources. Record an estimate of the volume and
+    color of the solution (e.g., no color, light yellow, yellow, dark
+    yellow).
+
+    -   **Note:** earlier versions of this protocol called for using a
+        needle to transfer the solutions to evacuated glass sample tubes
+        with septa. While that minimized any potential for soil
+        contamination at the sample transfer stage, it also introduced a
+        sharps hazard, and glass sample tubes are problematic for
+        ultra-cold storage.
+
+-   **Second flush (F2)—** Using the “clean” syringe, add 10 mL working
+    nutrient solution through the bottom of the incubation assembly, and
+    the <span class="mark">inject 5 mL of air to help distribute the
+    solution evenly.</span> Make sure to close the stopcock when
+    switching between the injection and sampling syringes, so the
+    solution does not drain out unintentionally. Then, using the
+    sampling syringe from the first flush, withdraw as much of the
+    incubation solution as possible. Disconnect the sampling syringe
+    from the incubation assembly, holding it upside-down, so none of the
+    flush solution leaks out during the transfer. Attach a syringe
+    filter to the end of the sample syringe (the filter from the F1
+    flush can be re-used, if it is not plugged up), and squirt the
+    solution to the appropriately-labeled (F2) 15 mL conical sample
+    tube. Be careful not to transfer any soil into the sample tube from
+    dirty gloves or other sources. Record an estimate of the volume and
+    color of the solution (e.g., no color, light yellow, yellow, dark
+    yellow).
+
+-   **Storage—** Transfer the F1 and F2 sample tubes to the cooler with
+    ice packs (“blue ice”).
+
+    -   <span class="mark">In the future, we may switch to storage on
+        dry ice (which requires additional safety protocols and
+        planning).</span>
+
+-   Cut the incubated root about an inch away from syringe body, and
+    place the incubation assembly upright in a box to bring it back to
+    the lab.
+
+### Controls & other measurements:
+
+For every several incubations, control samples should be collected. In
+those cases, two additional incubation assemblies should be set up
+alongside the main incubation. These controls should be assembled and
+flushed just like a true incubation, but without the addition of a fine
+root bunch. In the “soil” control, intentionally add a small soil
+particle to the assembly before closing it with parafilm. After 24 hours
+of incubation, recover F1 and F2 flush samples, then discard the
+(root-less) incubation assemblies.
+
+-   **Soil moisture—** Exudation rates and chemistry are strongly
+    affected by soil moisture condition. To better account for this, it
+    is recommended to collect a spade-full of soil from the wall of the
+    hole you have excavated into a labeled plastic baggie, for
+    measurement of gravimetric water content back at the lab.
+
+-   **Fine roots—** At the time of exudate sampling, consider also
+    collecting additional fine roots biomass samples for chemical or
+    metabolic analysis. This provides an opportunity for comparison of
+    the root biomass vs. exudate metabolomic profiles, or other
+    analysis. If the root biomass will be used for metabolomic analysis,
+    it should ideally be stored on dry ice immediately after collection.
+
+## Processing back at the lab:
+
+-   Put all exudate flush samples in –80C freezer until hand-off for
+    LC–MS and TOC measurement
+
+<!-- -->
+
+-   **Incubation disassembly—** Remove the parafilm and gently pour the
+    root and glass beads into a tub. If it doesn’t slide right out,
+    squirt some water into the cuvette to help it come out. Rinse the
+    beads off the root using a nanopure squirt bottle. Place the root
+    and ID tape on the piece of Styrofoam board with centimeters marked
+    on two sides, and photograph. Then store in labeled coin envelopes.
+
+-   **Root characterization—** Work with Larry York to scan each
+    incubated root sample and analyze with Rhizovision Explorer. Put the
+    wet roots back into labeled coin envelopes, then dry and weigh them.
+
+## Variations for greenhouse sampling:
+
+This protocol was modified to collect exudate samples from poplar plants
+grown in the ORNL APPL greenhouse over a ~4 week period in May 2024.
+This experiment included plants grown in both potting mix and field
+soils. In both cases we removed the root/soil “plugs” from the original
+pots, excavated a fine root ~2 inches below the surface from the side
+(Figure 11); and set up our root incubation assembly below the soil
+surface. We down-sized from 30 mL down to 20 mL syringes for the
+incubation assembly, in order to accommodate the less well-developed
+roots and to better fit inside the greenhouse pots. All rinse and flush
+volumes should be scaled down accordingly. Note that root disturbance is
+relatively high in this greenhouse sampling, since the roots were highly
+intertwined, and the excavation affects a much larger fraction of the
+plant’s total root biomass. We sacrificed off-target roots to excavate
+target ones as needed, but even then, our target roots suffered from a
+relatively high rate of tip-snapping during excavation.
+
+Also, we didn’t have sufficient time or a practical
+method for implementing a root rest/recovery step, so we skipped this
+step in the initial trial. In future greenhouse collections, a two-step
+incubation process is recommended, so that the roots can rest/recover
+during the first incubation, and then the true samples of interest can
+be collected from the second incubation.
+
+-   **Potting mix—** It was moderately difficult to rinse potting mix
+    from the roots. Root/potting mix “plugs” tended to stay intact after
+    removal as once piece (Figure 11). Incubation assembly could thus be
+    buried within the existing plug, and the whole bundle reassembled
+    into the original pot (Figure 12). Additional tubing length is
+    required to run back out the top of the pots (Figure 13), which
+    introduces additional “dead” volume. In future iterations, we could
+    consider putting holes in the sides of pots for better access to the
+    incubation assemblies.
+
+<!-- -->
+
+-   **Field soil—** It was relatively easy to isolate and rinse the
+    roots. However, the lack of “plug” structure meant there was nothing
+    to anchor the incubation assemble to during reassembly. Instead, we
+    re-potted these plants in wide circular pots, with the incubation
+    syringes protruding from drainage holes at the bottom (Figure 14;
+    Figure 15). Doing so required heavy disturbance of the remaining
+    root plug (loosening and folding it) to make it fit properly in the
+    new pot shape, while positioning the incubation assembly
+    appropriately. All plants suffered from some wilting during the
+    incubation assembly set-up, but these field soil plants took
+    significantly longer to perk back up after watering.
+
+>[!note]
+>**Note from John Field**: In our initial trial, I did not down-scale the volumes, and I erroneously skipped the 5 mL new solution addition for the F1 flush, so we’ll probably just pool our  F1 and F2 samples together for analysis.
+>
+
+
+**<u>Photos:</u>**
+
+<img src="./attachments/media/image1.jpeg"
+style="width:2.59236in;height:3.32431in"
+alt="A picture containing floor, indoor, wooden, surface Description automatically generated" />
+
+Figure 1. Stainless steel pipe screen to block glass beads from clogging
+syringe nozzle.
+
+<img src="./attachments/media/image2.png"
+style="width:6in;height:3.9625in" />
+
+Figure 2. Incubation assembly (20 mL version).
+
+<img src="./attachments/media/image3.jpeg"
+style="width:3.92431in;height:2.95139in" />
+
+Figure 3. Soaking fine roots to help loosen and remove soil particles
+(or potting mix in this case).
+
+<img src="./attachments/media/image4.jpeg"
+style="width:4.28264in;height:3.21389in" />
+
+Figure 4. An excavated and cleaned fine root system (Clatskanie field
+site).
+
+<img src="./attachments/media/image5.jpeg"
+style="width:3.73819in;height:2.80694in"
+alt="A picture containing ground, piece, plant, slice Description automatically generated" />
+
+Figure 5. Root system covered in moist sand for recovery period. Note
+the root partially visible at 10 o'clock; the root should be as
+completely covered in moist sand as possible to prevent it from drying
+out.
+
+<img src="./attachments/media/image6.jpeg"
+style="width:3.26181in;height:4.35139in" />
+
+Figure 6. Loading the recovered root into an incubation assembly (30 mL
+syringe body).
+
+<img src="./attachments/media/image7.jpeg"
+style="width:2.58611in;height:3.44792in"
+alt="A picture containing ground, soil Description automatically generated" />
+
+Figure 7. Filling incubation assembly around root with fine glass beads.
+
+<img src="./attachments/media/image8.jpeg"
+style="width:5.84653in;height:3.88958in"
+alt="A picture containing person, outdoor, people, working Description automatically generated" />
+
+Figure 8. Injecting nutrient solution into the bottom of the incubation
+assembly (note that this earlier version of the assembly lacks a syringe
+filter, and features 1/8" ID tubing instead of 1/16").
+
+<img src="./attachments/media/image9.jpeg"
+style="width:4.06875in;height:3.05486in"
+alt="A snake on the ground Description automatically generated with low confidence" />
+
+Figure 9. Completed incubation assembly.
+
+<img src="./attachments/media/image10.jpeg"
+style="width:5.62292in;height:4in" />
+
+Figure 10. Flush sample storage in 15 mL "Falcon" tubes (VWR brand)
+
+<img src="./attachments/media/image11.jpeg"
+style="width:5.84653in;height:3.97917in"
+alt="A picture containing ground, outdoor Description automatically generated" />
+
+Figure 11. Root excavation from a poplar plant grown in potting mix in
+the greenhouse. The root/soil "plug" has enough structure that it can be
+removed from the pot intact, and reassembled later.
+
+<img src="./attachments/media/image12.jpeg"
+style="width:2.84167in;height:3.77222in"
+alt="A picture containing person Description automatically generated" />
+
+Figure 12. Adding a 20 mL incubation assembly the to the root/soil plug,
+routing the solution collection tube to the top of the soil surface, and
+returning the entire assembly back to the original pot.
+
+<img src="./attachments/media/image13.jpeg"
+style="width:2.68264in;height:3.56528in"
+alt="A picture containing furniture Description automatically generated" />
+
+Figure 13. Re-potted plant with sample collection tube protruding from
+the surface. A shorter and narrower tube would reduce the amount of
+"dead" volume that needs to be managed.
+
+<img src="./attachments/media/image14.jpeg"
+style="width:3.2125in;height:3.95833in"
+alt="A plant in a pot Description automatically generated with medium confidence" />
+
+Figure 14. Relatively young plants grown in field soil may lack enough
+root/soil "plug" structure to facilitate reassembly in the original
+tall/skinny pot. In these cases, the plant can be transferred to a wider
+pot, routing the end of the incubation syringe out a drainage hole, and
+twisting/folding the remaining root/soil plug to fit.
+
+<img src="./attachments/media/image15.jpeg"
+style="width:3.75139in;height:4.97917in"
+alt="A picture containing outdoor, trash, sale Description automatically generated" />
+
+Figure 15. Another view of the incubation syringe protruding from the
+bottom of the new, wider pot.

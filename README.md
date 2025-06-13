@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains protocols, notebooks, and resources for collecting and analyzing root exudates from Miscanthus x giganteus (Mxg) genotypes. This work is being conducted as part of LDRD 11146, focusing on studying the relationship between Mxg genotypes and their root exudates.
+This repository contains protocols, notebooks, and resources for collecting and analyzing root exudates from *Miscanthus spp.* genotypes.
 
 ## Repository Structure
 

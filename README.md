@@ -56,7 +56,7 @@ Documentation for pilot experiments in greenhouse settings can be found in the `
 
 - John Field, Ph.D (Oak Ridge National Laboratory) 
 - Bolívar Aponte Rolón, Ph.D (Iowa State University)
-- 
+  
 ## License
 
 [LICENSE file information to be added]

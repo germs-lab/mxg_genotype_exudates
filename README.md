@@ -1,4 +1,4 @@
-# Miscanthus x giganteus (Mxg) Genotype Exudates
+# *Miscanthus spp.* Genotype Root Exudates
 
 ![GitHub](https://img.shields.io/github/license/jibarozzo/mxg_genotype_exudates)
 

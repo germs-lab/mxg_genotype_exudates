@@ -3,3 +3,14 @@
 .RData
 .Ruserdata
 bar_presentation_files/
+protocols/mxg_exudate_collection_protocol_files/libs/bootstrap/bootstrap-icons.css
+protocols/mxg_exudate_collection_protocol_files/libs/bootstrap/bootstrap-icons.woff
+protocols/mxg_exudate_collection_protocol_files/libs/bootstrap/bootstrap.min.css
+protocols/mxg_exudate_collection_protocol_files/libs/bootstrap/bootstrap.min.js
+protocols/mxg_exudate_collection_protocol_files/libs/clipboard/clipboard.min.js
+protocols/mxg_exudate_collection_protocol_files/libs/quarto-html/anchor.min.js
+protocols/mxg_exudate_collection_protocol_files/libs/quarto-html/popper.min.js
+protocols/mxg_exudate_collection_protocol_files/libs/quarto-html/quarto-syntax-highlighting.css
+protocols/mxg_exudate_collection_protocol_files/libs/quarto-html/quarto.js
+protocols/mxg_exudate_collection_protocol_files/libs/quarto-html/tippy.css
+protocols/mxg_exudate_collection_protocol_files/libs/quarto-html/tippy.umd.min.js

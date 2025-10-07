@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains protocols, notebooks, and resources for collecting and analyzing root exudates from *Miscanthus spp.* genotypes.
+This repository contains protocols, notebooks, and resources for collecting and analyzing root exudates from *Miscanthus spp.* genotypes.  Modified from a protocol from Rich Phillips.
 
 ## Repository Structure
 

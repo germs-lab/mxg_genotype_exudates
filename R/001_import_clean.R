@@ -1,6 +1,12 @@
+###############################################################################
+#
 # Brief cleaning and quality control of the MxG collection and panel data.
+# Objective: Create labels .csv and .xlsx for metabolite analyses at Oak Ridge
+#
+#
 # Bolívar Aponte Rolón
 # 2025-07-29
+###############################################################################
 source("R/utils/000_setup.R")
 
 
@@ -36,6 +42,7 @@ mxg_labels <- mxg_panel_raw %>%
     Barcode,
     Entry,
     Species_consensus,
+    `Groups Consensus`,
     `Accession_#`,
     `USDA_Q_#`,
     `Alt_accession_#`,
@@ -46,7 +53,7 @@ mxg_labels <- mxg_panel_raw %>%
 
 # Save
 write_excel_csv(mxg_labels, "data/output/mxg_labels.csv")
-write.xlsx(mxg_labels_clean, "data/output/mxg_labels.xlsx", row.names = TRUE)
+# write.xlsx(mxg_labels_clean, "data/output/mxg_labels.xlsx", row.names = TRUE)
 
 #------------------------------------
 # Data Clean up
@@ -60,6 +67,7 @@ identifier_cols <- c(
   "barcode",
   "entry",
   "species_consensus",
+  "groups_consensus",
   "accession_number",
   "usda_q_number",
   "alt_accession_number",
@@ -138,6 +146,7 @@ mxg_panel <- mxg_panel_raw %>%
 #--------------------------------------
 # Save
 #--------------------------------------
+# File for Metabolite analysis at Oak Ridge
 write.xlsx(
   mxg_panel,
   "data/input/Aponte_Bolivar_mxg_genotype_exudate_panel.xlsx",
@@ -145,7 +154,12 @@ write.xlsx(
   rowNames = TRUE
 )
 
+
+mxg_panel_list <- list(
+  mxg_panel_raw = mxg_panel_raw,
+  mxg_panel = mxg_panel
+)
 save(
-  mxg_panel,
+  mxg_panel_list,
   file = "data/output/mxg_genotype_exudate_panel.rda"
 )

@@ -1,6 +1,12 @@
+###############################################################################
+#
 # Brief cleaning and quality control of the MxG collection and panel data.
+# Objective: Create labels .csv and .xlsx for metabolite analyses at Oak Ridge
+#
+#
 # Bolívar Aponte Rolón
 # 2025-07-29
+###############################################################################
 source("R/utils/000_setup.R")
 
 
@@ -12,7 +18,7 @@ mxg_coll <- readxl::read_xlsx(
   sheet = "isu_msa_msi_collection"
 )
 
-mxg_panel <- readxl::read_xlsx(
+mxg_panel_raw <- readxl::read_xlsx(
   "data/input/msa_msi_minicores_2025.xlsx",
   sheet = "mxg_genotype_exudate_panel"
 )
@@ -22,20 +28,21 @@ mxg_panel <- readxl::read_xlsx(
 #-----------------------------------
 
 # Find barcodes in panel but missing from collection
-missing_from_collection <- mxg_panel %>%
+missing_from_collection <- mxg_panel_raw %>%
   anti_join(mxg_coll, by = c("Barcode" = "Barcode...1"))
 
 # Find barcodes in collection but missing from panel
 missing_from_panel <- mxg_coll %>%
-  anti_join(mxg_panel, by = c("Barcode...1" = "Barcode"))
+  anti_join(mxg_panel_raw, by = c("Barcode...1" = "Barcode"))
 
 # Creating new DF for making labels
-mxg_labels <- mxg_panel %>%
+mxg_labels <- mxg_panel_raw %>%
   slice(rep(row_number(), each = 6)) %>%
   select(
     Barcode,
     Entry,
     Species_consensus,
+    `Groups Consensus`,
     `Accession_#`,
     `USDA_Q_#`,
     `Alt_accession_#`,
@@ -46,39 +53,26 @@ mxg_labels <- mxg_panel %>%
 
 # Save
 write_excel_csv(mxg_labels, "data/output/mxg_labels.csv")
-write.xlsx(mxg_labels_clean, "data/output/mxg_labels.xlsx", row.names = TRUE)
+# write.xlsx(mxg_labels_clean, "data/output/mxg_labels.xlsx", row.names = TRUE)
 
 #------------------------------------
 # Data Clean up
 #------------------------------------
 
-mxg_panel <- janitor::clean_names(mxg_panel)
-col_names <- colnames(mxg_panel)
-print(col_names)
+# mxg_panel <- janitor::clean_names(mxg_panel_raw)
+# posix_cols <- mxg_panel %>%
+#   select(barcode, where(~ lubridate::is.POSIXct(.x)))
 
 identifier_cols <- c(
   "barcode",
   "entry",
   "species_consensus",
+  "groups_consensus",
   "accession_number",
   "usda_q_number",
   "alt_accession_number",
   "uiuc_id"
-  #   "minicores_ainsworth_2025",
-  #   "quantity",
-  #   "transplanted",
-  #   "date_transplant",
-  #   "project",
-  #   "project_id",
-  #   "labeled",
-  #   "survival_6wks",
-  #  #"replaced_july2025",
-  #   "incubation_start_6wks",
-  #   "incubation_end_6wks",
-  #   "root_exudate_collect_6wks",
-  #   "root_exudate_collect_15wks"
 )
-
 
 # Reshaped data
 excluded_cols <- c(
@@ -94,10 +88,11 @@ excluded_cols <- c(
   "root_exudate_collect_15wks"
 )
 
-mxg_panel_reshaped <- mxg_panel %>%
+mxg_panel <- mxg_panel_raw %>%
+  janitor::clean_names(.) %>%
+  #select(!where(~ lubridate::is.POSIXct(.x))) %>%
   tidyr::pivot_longer(
     cols = where(is.numeric) &
-      #!where(~ class(.x)[1] == "POSIXct") &
       !matches(excluded_cols),
     names_to = "variable",
     values_to = "value"
@@ -148,9 +143,23 @@ mxg_panel_reshaped <- mxg_panel %>%
     flush_replenish = replenish
   )
 
+#--------------------------------------
+# Save
+#--------------------------------------
+# File for Metabolite analysis at Oak Ridge
 write.xlsx(
-  mxg_panel_reshaped,
-  "data/input/Aponte_Bolivar_msa_msi_pilot_samples.xlsx",
-  sheetName = 'msa_msi_pilot_samples',
+  mxg_panel,
+  "data/input/Aponte_Bolivar_mxg_genotype_exudate_panel.xlsx",
+  sheetName = 'mxg_genotype_exudate_panel',
   rowNames = TRUE
+)
+
+
+mxg_panel_list <- list(
+  mxg_panel_raw = mxg_panel_raw,
+  mxg_panel = mxg_panel
+)
+save(
+  mxg_panel_list,
+  file = "data/output/mxg_genotype_exudate_panel.rda"
 )

@@ -13,6 +13,8 @@ This repository contains protocols, notebooks, and resources for collecting and 
 - **notebooks/**: Analysis notebooks and experimental documentation
   - `pilot_mxg_greenhouse.md`: Documentation for pilot greenhouse experiments
 - **renv/**: R environment configuration for reproducible analysis
+- **R/**: R scripts for data analysis
+- **data/**: Raw and processed data files
 
 ## Getting Started
 

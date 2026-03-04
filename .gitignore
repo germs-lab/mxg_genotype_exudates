@@ -2,6 +2,11 @@
 .Rhistory
 .RData
 .Ruserdata
+
+**/.DS_Store
+data/input/CBI_SRO_Howe/**
+
+
 bar_presentation_files/
 protocols/mxg_exudate_collection_protocol_files/libs/bootstrap/bootstrap-icons.css
 protocols/mxg_exudate_collection_protocol_files/libs/bootstrap/bootstrap-icons.woff

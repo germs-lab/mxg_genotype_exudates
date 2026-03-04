@@ -1,0 +1,93 @@
+---
+title: "Root Exudate Analysis in Miscanthus Species"
+subtitle: "What in the world am I doing?"
+author: Bolívar Aponte Rolón
+date: today
+format: 
+  revealjs:
+    theme: default
+    transition: slide
+    slide-number: true
+    toc: true
+    toc-depth: 2
+---
+
+## Experiment Overview
+
+### Objective
+
+- **Goal:** Collect root exudates from:
+  - *Miscanthus sacchariflorus*
+  - *M. sinensis* 
+  - *M. × giganteus*
+  
+- Using genotype panel from Eric Sacks
+
+## Key Questions
+
+- How different are these species/genotypes in root exudates?
+- Correlation with biomass and yield?
+- Correlation with chilling tolerance genotypes?
+- Implications for soil organic carbon (SOC)?
+- Microbial community interactions?
+
+## Background
+
+- Parental line diversity → cultivar improvement opportunities
+- Relevant literature:
+  - Kumari et al. (2025) - Genetic basis of non-photochemical quenching
+  - Njuguna et al. (2023) - Biomass yield in diverse Miscanthus
+  - Njuguna et al. (2023) - GWAS and genomic prediction
+
+\ 
+
+**Approach:** Use previously described lines to establish baseline exudate comparison
+
+## Experimental Design Considerations
+
+### Growth Conditions Options
+
+::: {.columns}
+::: {.column}
+**Field Pros:**
+
+- Natural conditions
+- Larger scale possible
+
+**Field Cons:**
+
+- Less control
+- Harder to collect exudates
+:::
+
+::: {.column}
+**Greenhouse Pros:**
+
+- Controlled environment
+- Easier exudate collection
+
+**Greenhouse Cons:**
+
+- Artificial conditions
+- Space limitations
+
+:::
+:::
+
+## Timeline
+
+```{mermaid}
+gantt
+    title Project Timeline
+    dateFormat  YYYY-MM-DD
+    axisFormat %b %d
+    
+    section Preparation
+    Literature review       :done, des1, 2024-02-01, 30d
+    Protocol development   :active, des2, after des1, 30d
+    
+    section Experiments
+    Rhizome acquisition    :crit, des3, after des2, 20d
+    Greenhouse setup       :crit, des4, after des3, 15d
+    Exudate collection     :active, des5, after des4, 60d
+```

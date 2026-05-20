@@ -8,11 +8,13 @@ This repository contains protocols, notebooks, and resources for collecting and 
 
 ## Repository Structure
 
-- **data/**: Contains raw (`input/`) and processed (`output/`) data files. Not all data is included due to size constraints. See GERMS lab Google Drive or request access. 
-- **protocols/**: Contains detailed protocols for exudate collection
+- **data/**: Contains raw (`input/`) and processed (`output/`) data files. Not all data is included due to size constraints. See GERMS lab Google Drive or request access.
+- **docs/**: Documentation and supplementary materials. Poster presentations and other material in main GERMS lab Google Drive.
+- **protocols/**: ***What did Bolívar do things?*** Contains detailed protocols for exudate collection. 
   - `mxg_exudate_collection_protocol.qmd`: Comprehensive protocol for soluble root exudate collection (Version 6)
-- **notebooks/**: Analysis notebooks and experimental documentation
+- **notebooks/**: ***How did Bolívar do things?*** Analysis notebooks and experimental documentation
   - `pilot_mxg_greenhouse.md`: Documentation for pilot greenhouse experiments
+- **R/**: R scripts for import and cleaning data for metabolomic analysis and greenhouse carrying capacity for the lab. 
 - **renv/**: R environment configuration for reproducible analysis
 
 ***Read [DATA_DICTIONARY](DATA_DICTIONARY.md) and [DMP_REPORT](DMP_REPORT.md) for more details on how the data was collected and managed.***
@@ -37,7 +39,7 @@ This project uses `renv` for managing R package dependencies. To set up the envi
 
 ### Mxg Exudate Collection Protocol
 
-The main protocol (Version 6) provides detailed instructions for collecting soluble root exudates from Miscanthus x giganteus. The protocol includes:
+The main protocol `protocols/LDRD_Root_Exudates_Protocol-v6.docx` or `protocols/mxg_exudate_collection_protocol.html` provides detailed instructions for collecting soluble root exudates from *Miscanthus x giganteus*. The protocol includes:
 
 - Materials and equipment lists
 - Step-by-step collection procedures

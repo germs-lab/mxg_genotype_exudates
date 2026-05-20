@@ -4,7 +4,7 @@ project: Mxg Root Exudates
 location: Iowa State university
 investigator: Bolívar Aponte Rolón
 date: 2025-02-06
-updated: 2025-02-07
+updated: 2026-05-20
 time: 13:48
 tags:
   - GERMS
@@ -22,12 +22,12 @@ status: aborted
 - No one at ISU is currently growing Mxg in a greenhouse.
 - It imperative to grow some in controlled conditions and learn how to extract root exudates. Mainly to flesh out the protocol. 
 - [John Field](https://www.ornl.gov/staff-profile/john-l-field) at Oak Ridge National laboratory has an excellent protocol for extracting exudates from *Poplar*, see [LDRD_Root_Exudates_Protocol-v6.docx](LDRD_Root_Exudates_Protocol-v6.docx).
-	- I'm modifying this protocol here: [mxg_exudate_collection_protocol](mxg_exudate_collection_protocol.md)
+	- I'm modifying this protocol here: [mxg_exudate_collection_protocol](../protocols/mxg_exudate_collection_protocol.qmd)
 
 ## 2. Materials and Methods
 
 ### 2.1. Materials
-- See [Materials & equipment](mxg_exudate_collection_protocol.md#Materials%20&%20equipment)
+- See [Materials & equipment](../protocols/mxg_exudate_collection_protocol.html)
 - As of 2025-02-06, I need to acquire: 
 	- Materials in [2.1. Materials](pilot_mxg_greenhouse.md#2.1.%20Materials)
 

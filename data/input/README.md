@@ -30,7 +30,7 @@ LC-MS data for the organic (non-polar) fraction of root exudates. Contains lipop
 
 ## Additional Resources
 
-- **Methods**: See `LCMS_Materials_and_Methods.docx` for experimental protocols
-- **Sample metadata**: See `Aponte_Bolivar_mxg_genotype_exudate_panel.xlsx` for sample information and panel details
+- **Methods**: See `data/input/CBI_SRO_Howe/LC-Metabolomics/LCMS_Materials_and_Methods.docx` for experimental protocols
+- **Sample metadata**: See `data/input/CBI_SRO_Howe/LC-Metabolomics/Aponte_Bolivar_mxg_genotype_exudate_panel.xlsx` for sample information and panel details
 
 

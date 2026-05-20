@@ -19,3 +19,7 @@ protocols/mxg_exudate_collection_protocol_files/libs/quarto-html/quarto-syntax-h
 protocols/mxg_exudate_collection_protocol_files/libs/quarto-html/quarto.js
 protocols/mxg_exudate_collection_protocol_files/libs/quarto-html/tippy.css
 protocols/mxg_exudate_collection_protocol_files/libs/quarto-html/tippy.umd.min.js
+
+*quarto.js
+*tippy.css
+*tippy.umd.min.js

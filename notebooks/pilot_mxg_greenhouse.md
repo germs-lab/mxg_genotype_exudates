@@ -4,7 +4,7 @@ project: Mxg Root Exudates
 location: Iowa State university
 investigator: Bolívar Aponte Rolón
 date: 2025-02-06
-updated: 2025-02-07
+updated: 2026-05-20
 time: 13:48
 tags:
   - GERMS
@@ -22,12 +22,12 @@ status: aborted
 - No one at ISU is currently growing Mxg in a greenhouse.
 - It imperative to grow some in controlled conditions and learn how to extract root exudates. Mainly to flesh out the protocol. 
 - [John Field](https://www.ornl.gov/staff-profile/john-l-field) at Oak Ridge National laboratory has an excellent protocol for extracting exudates from *Poplar*, see [LDRD_Root_Exudates_Protocol-v6.docx](LDRD_Root_Exudates_Protocol-v6.docx).
-	- I'm modifying this protocol here: [mxg_exudate_collection_protocol](mxg_exudate_collection_protocol.md)
+	- I'm modifying this protocol here: [mxg_exudate_collection_protocol](../protocols/mxg_exudate_collection_protocol.qmd)
 
 ## 2. Materials and Methods
 
 ### 2.1. Materials
-- See [Materials & equipment](mxg_exudate_collection_protocol.md#Materials%20&%20equipment)
+- See [Materials & equipment](../protocols/mxg_exudate_collection_protocol.html)
 - As of 2025-02-06, I need to acquire: 
 	- Materials in [2.1. Materials](pilot_mxg_greenhouse.md#2.1.%20Materials)
 
@@ -73,50 +73,4 @@ Mxg rhizomes where place in about 1 inch of RO H<sub>2</sub>O in plastic tub. Pl
   1. **Cleanup:** Mention post-experiment procedures if applicable.
 - **Notes:** Add any specific instructions or deviations from the standard protocol.
 
-## 3. Data and Observations
 
-### 3.1. Observations
-- Record qualitative observations made during the experiment (e.g., color changes, smells, unexpected events).
-
-### 3.2. Data Collection
-- **Data Table:**
-
-| Sample | Measurement | Unit | Notes |
-|--------|-------------|------|-------|
-|        |             |      |       |
-|        |             |      |       |
-
-- **Additional Data:**  
-  - Insert any graphs, images, or sketches.  
-  - You can embed images in Obsidian using: `![[image-file.png]]`
-
-
-
-## 4. Results
-- Summarize the quantitative and qualitative results.
-- Include any calculations or statistical analyses if applicable.
-
-
-## 5. Analysis and Discussion
-- Interpret the results. What do they imply about your hypothesis?
-- Discuss any potential errors, anomalies, or unexpected outcomes.
-- Consider how the findings compare to previous work or theoretical expectations.
-
-
-## 6. Conclusion
-- Summarize the major findings.
-- State whether the experiment supported the hypothesis.
-- Highlight the significance of the results.
-
-
-## 7. Next Steps / Future Work
-- Outline any follow-up experiments or modifications to the procedure.
-- Identify any new questions that have arisen.
-
-## 8. References
-- List all sources, literature, or protocols referenced in your experiment.
-  - *Example:* Smith, J. (2023). _Advanced Techniques in Chemistry_. Journal of Experimental Methods.
-
-
-## 9. Additional Notes
-- Record any other observations, thoughts, or ideas that didn’t fit into the sections above.

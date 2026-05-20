@@ -8,11 +8,14 @@ This repository contains protocols, notebooks, and resources for collecting and 
 
 ## Repository Structure
 
+- **data/**: Contains raw (`input/`) and processed (`output/`) data files. Not all data is included due to size constraints. See GERMS lab Google Drive or request access. 
 - **protocols/**: Contains detailed protocols for exudate collection
   - `mxg_exudate_collection_protocol.qmd`: Comprehensive protocol for soluble root exudate collection (Version 6)
 - **notebooks/**: Analysis notebooks and experimental documentation
   - `pilot_mxg_greenhouse.md`: Documentation for pilot greenhouse experiments
 - **renv/**: R environment configuration for reproducible analysis
+
+***Read [DATA_DICTIONARY](DATA_DICTIONARY.md) and [DMP_REPORT](DMP_REPORT.md) for more details on how the data was collected and managed.***
 
 ## Getting Started
 
@@ -56,8 +59,5 @@ Documentation for pilot experiments in greenhouse settings can be found in the `
 
 - John Field, Ph.D (Oak Ridge National Laboratory) 
 - Bolívar Aponte Rolón, Ph.D (Iowa State University)
-  
-## License
-
-[LICENSE file information to be added]
+- Phillip de Lorimier (Iowa State University)  
 

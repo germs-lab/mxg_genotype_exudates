@@ -1,5 +1,6 @@
 ### Quick protocol overview
-
+ See `protocols/LDRD_Root_Exudates_Protocol-v6.docx` or `protocols/mxg_exudate_collection_protocol.html` for details.
+ 
 ```mermaid
 flowchart TD
     B{Protocol Type?}
